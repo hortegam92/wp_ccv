@@ -32,7 +32,17 @@ jQuery(function($) {
 		});
 
 		// Sliders Init
-		var owl = $('.owl-carousel');
+		var owl = $('.owl-carousel-5');
+		owl.owlCarousel({
+			items:5,
+			loop:true,
+			margin:10,
+			autoplay:true,
+			autoplayTimeout:1000,
+			autoplayHoverPause:true
+		});
+
+		var owl = $('.owl-carousel-1');
 		owl.owlCarousel({
 			items:1,
 			loop:true,
@@ -41,7 +51,6 @@ jQuery(function($) {
 			autoplayTimeout:1000,
 			autoplayHoverPause:true
 		});
-
 	
 
 		// Navbar Init

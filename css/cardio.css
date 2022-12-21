@@ -1165,6 +1165,16 @@ footer .social-footer li:hover a {
 	visibility: visible;
   }
 
+  .owl-carousel .owl-item img{
+	max-height: 100px!important;
+	width: auto!important;
+  }
+
+  .navbar-brand > img{
+    padding-top: 10px!important;
+    max-height: 100px!important;
+  }
+
 /* Media Queries */
 
 @media(max-width:991px) {
